@@ -139,14 +139,35 @@ img {
     .row{flex-direction: column;
         align-items: center;
     }
-    .card{
-        min-width:100%;
+    .col:last-child{
+        padding-bottom: 3rem;
     }
+   h2:last-of-type{
+    margin-top: 50px;
+   }
   
     .steps .col {
         width:100%;
     }
     .lessons .col {
         width: 100%;
+    }
+    .lessons .col img {
+        height: 100vw;
+        margin-bottom: 1rem;
+    }
+    .why-us .col-left {
+        width: 100%;
+        padding: 3rem;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+    .why-us{
+        background-color: rgb(27, 27, 27);
+    }
+    .steps{
+        margin: 0px;
     }
 }
